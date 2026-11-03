@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0b2545">
-<title>SIPANTAU ALKES | RSUD Bhakti Dharma Husada</title>
+<title>SIPANTAU ALKES | RSUD Bhakti Dharma Husada Surabaya</title>
 <style>
 :root{
  --navy:#0b2545;--blue:#1565c0;--blue2:#1976d2;--sky:#eaf3ff;--bg:#f5f8fc;
@@ -79,7 +79,7 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue2);box-shadow:0 0
 <div class="mobile-overlay" id="overlay" onclick="toggleSidebar()"></div>
 <div class="app">
 <aside class="sidebar" id="sidebar">
- <div class="brand"><div class="brand-icon">✚</div><div><strong>SIPANTAU ALKES</strong><small>RSUD BHAKTI DHARMA HUSADA</small></div></div>
+ <div class="brand"><div class="brand-icon">✚</div><div><strong>SIPANTAU ALKES</strong><small>RSUD BHAKTI DHARMA HUSADA SURABAYA</small></div></div>
  <div class="nav-label">Menu Utama</div>
  <nav class="nav">
   <button class="active" data-page="home"><span class="ico">⌂</span>Beranda</button>
@@ -100,7 +100,7 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue2);box-shadow:0 0
   <button data-page="manage"><span class="ico">☷</span>Kelola Laporan</button>
   <button data-page="settings"><span class="ico">⚑</span>Pengaturan</button>
  </nav>
- <div class="sidebar-bottom">Prototype demonstrasi • Bukan sistem resmi rumah sakit.<br>© SIPANTAU ALKES</div>
+ <div class="sidebar-bottom">PKL 4 RS Muh. Aditya Faishal<br>© SIPANTAU ALKES</div>
 </aside>
 <main class="main">
  <header class="topbar">
@@ -112,25 +112,25 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue2);box-shadow:0 0
  <!-- HOME -->
  <section class="page active" id="page-home">
   <div class="hero">
-   <div><div class="eyebrow" style="color:#a9d3ff">DIGITAL HEALTHCARE SUPPORT</div><h1>Pelaporan dan Pemantauan Perbaikan Alat Kesehatan Lebih Mudah.</h1><p>Satu platform digital untuk membantu pengguna melaporkan kerusakan, memantau proses perbaikan, dan memperoleh informasi status tindak lanjut alat kesehatan.</p><div class="hero-actions"><button class="btn btn-light" onclick="showPage('report')">＋ Laporkan Kerusakan</button><button class="btn btn-outline" onclick="showPage('track')">Lacak Laporan →</button></div></div>
+   <div><div class="eyebrow" style="color:#a9d3ff">INSTALASI PEMELIHARAAN SARANA</div><h1>Pelaporan dan Pemantauan Perbaikan Alat Kesehatan</h1><p>Satu platform digital untuk membantu pengguna melaporkan kerusakan, memantau proses perbaikan, dan memperoleh informasi status tindak lanjut alat kesehatan.</p><div class="hero-actions"><button class="btn btn-light" onclick="showPage('report')">＋ Laporkan Kerusakan</button><button class="btn btn-outline" onclick="showPage('track')">Lacak Laporan →</button></div></div>
    <div class="hero-art">⚕</div>
   </div>
   <div class="grid stats">
-   <div class="card stat"><div><div class="stat-label">Total Laporan</div><div class="stat-value" id="homeTotal">128</div><div class="stat-note">Data demonstrasi</div></div><div class="stat-icon">▤</div></div>
+   <div class="card stat"><div><div class="stat-label">Total Laporan</div><div class="stat-value" id="homeTotal">128</div><div class="stat-note">Data Pelaporan</div></div><div class="stat-icon">▤</div></div>
    <div class="card stat"><div><div class="stat-label">Menunggu Verifikasi</div><div class="stat-value" id="homePending">12</div><div class="stat-note">Perlu ditinjau petugas</div></div><div class="stat-icon">◷</div></div>
    <div class="card stat"><div><div class="stat-label">Dalam Perbaikan</div><div class="stat-value" id="homeRepair">18</div><div class="stat-note">Sedang ditangani</div></div><div class="stat-icon">⚒</div></div>
-   <div class="card stat"><div><div class="stat-label">Selesai</div><div class="stat-value" id="homeDone">98</div><div class="stat-note">Contoh data</div></div><div class="stat-icon">✓</div></div>
+   <div class="card stat"><div><div class="stat-label">Selesai</div><div class="stat-value" id="homeDone">98</div><div class="stat-note">Siap Digunakan</div></div><div class="stat-icon">✓</div></div>
   </div>
-  <div class="card" style="margin-bottom:18px"><h2>Alur Pelaporan dan Pemantauan</h2><div class="steps">
-   <div class="step"><b>1</b><span>Pengguna menemukan kendala alat</span></div><div class="step"><b>2</b><span>Pengguna mengirim laporan digital</span></div><div class="step"><b>3</b><span>IPS menerima dan memverifikasi</span></div><div class="step"><b>4</b><span>IPS melakukan tindak lanjut</span></div><div class="step"><b>5</b><span>Pengguna memantau status</span></div><div class="step"><b>6</b><span>Alat dinyatakan siap digunakan</span></div>
+  <div class="card" style="margin-bottom:25px"><h2>Alur Pelaporan dan Pemantauan</h2><div class="steps">
+   <div class="step"><b>1</b><span>Pengguna menemukan kendala pada alat</span></div><div class="step"><b>2</b><span>Pengguna mengirim laporan digital</span></div><div class="step"><b>3</b><span>IPS menerima dan memverifikasi</span></div><div class="step"><b>4</b><span>IPS melakukan tindak lanjut</span></div><div class="step"><b>5</b><span>Pengguna memantau status</span></div><div class="step"><b>6</b><span>Alat dinyatakan siap digunakan</span></div>
   </div></div>
   <div class="grid feature-grid">
-   <button type="button" class="card feature feature-link" onclick="showPage('report')" aria-label="Buka halaman Pelaporan Digital"><div class="feature-icon">＋</div><div><h3>Pelaporan Digital</h3><p>Formulir sederhana untuk menyampaikan informasi kerusakan alat.</p></div><span class="feature-arrow">↗</span></button>
+   <button type="button" class="card feature feature-link" onclick="showPage('report')" aria-label="Buka halaman Pelaporan Digital"><div class="feature-icon">＋</div><div><h3>Pelaporan Digital</h3><p>Formulir sederhana untuk melaporkan informasi kerusakan alat.</p></div><span class="feature-arrow">↗</span></button>
    <button type="button" class="card feature feature-link" onclick="showPage('track')" aria-label="Buka halaman Monitoring Status"><div class="feature-icon">◷</div><div><h3>Monitoring Status</h3><p>Memantau tahapan penanganan dan pembaruan dari petugas IPS.</p></div><span class="feature-arrow">↗</span></button>
-   <button type="button" class="card feature feature-link" onclick="showPage('labels')" aria-label="Buka halaman Pelabelan Status"><div class="feature-icon">▣</div><div><h3>Pelabelan Status</h3><p>Panduan identifikasi visual status alat kesehatan.</p></div><span class="feature-arrow">↗</span></button>
-   <button type="button" class="card feature feature-link" onclick="showPage('history')" aria-label="Buka halaman Riwayat Perbaikan"><div class="feature-icon">▤</div><div><h3>Riwayat Perbaikan</h3><p>Dokumentasi laporan dan tindak lanjut perbaikan.</p></div><span class="feature-arrow">↗</span></button>
-   <button type="button" class="card feature feature-link" onclick="showPage('education')" aria-label="Buka halaman Pusat Edukasi"><div class="feature-icon">▥</div><div><h3>Pusat Edukasi</h3><p>Informasi pelaporan, keselamatan, dan pemeliharaan alat.</p></div><span class="feature-arrow">↗</span></button>
-   <button type="button" class="card feature feature-link" onclick="showPage('ips')" aria-label="Buka halaman Dashboard IPS"><div class="feature-icon">▦</div><div><h3>Dashboard IPS</h3><p>Pengelolaan laporan dan ringkasan monitoring oleh petugas.</p></div><span class="feature-arrow">↗</span></button>
+   <button type="button" class="card feature feature-link" onclick="showPage('labels')" aria-label="Buka halaman Pelabelan Status"><div class="feature-icon">📝</div><div><h3>Pelabelan Status</h3><p>Panduan identifikasi visual status alat kesehatan.</p></div><span class="feature-arrow">↗</span></button>
+   <button type="button" class="card feature feature-link" onclick="showPage('history')" aria-label="Buka halaman Riwayat Perbaikan"><div class="feature-icon">🗂</div><div><h3>Riwayat Perbaikan</h3><p>Dokumentasi laporan dan tindak lanjut perbaikan.</p></div><span class="feature-arrow">↗</span></button>
+   <button type="button" class="card feature feature-link" onclick="showPage('education')" aria-label="Buka halaman Pusat Edukasi"><div class="feature-icon">📖</div><div><h3>Pusat Edukasi</h3><p>Informasi pelaporan, keselamatan, dan pemeliharaan alat.</p></div><span class="feature-arrow">↗</span></button>
+   <button type="button" class="card feature feature-link" onclick="showPage('ips')" aria-label="Buka halaman Dashboard IPS"><div class="feature-icon">📈</div><div><h3>Dashboard IPS</h3><p>Pengelolaan laporan dan ringkasan monitoring oleh petugas.</p></div><span class="feature-arrow">↗</span></button>
   </div>
  </section>
 
